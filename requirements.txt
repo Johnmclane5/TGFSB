@@ -1,5 +1,5 @@
 aiohttp<=3.8.1
-pyrogram==2.0.77
+pyrofork
 python-dotenv<=0.20.0
 TgCrypto<=1.2.5
 requests
