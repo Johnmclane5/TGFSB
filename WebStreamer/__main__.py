@@ -50,6 +50,7 @@ async def start_services():
     logging.info("bot =>> {}".format(bot_info.first_name))
     if bot_info.dc_id:
         logging.info("DC ID =>> {}".format(str(bot_info.dc_id)))
+        logging.info("URL =>> {}".format(Var.URL))
     await idle()
 
 async def cleanup():
