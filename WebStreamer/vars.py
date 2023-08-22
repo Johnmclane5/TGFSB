@@ -17,6 +17,7 @@ class Var(object):
     MONGODB_URI = str (environ.get("MONGODB_URI"))
     TOKEN_TIMEOUT = int(environ.get("TOKEN_TIMEOUT", 8080))
     ADMIN_ID = int(environ.get("ADMIN_ID"))
+    LOG_CHANNEL_ID = int(environ.get("LOG_CHANNEL_ID"))
     SLEEP_THRESHOLD = int(environ.get("SLEEP_THRESHOLD", "60"))  # 1 minte
     WORKERS = int(environ.get("WORKERS", "6"))  # 6 workers = 6 commands at once
     BIN_CHANNEL = int(
