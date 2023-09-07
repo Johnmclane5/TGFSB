@@ -4,3 +4,4 @@ python-dotenv<=0.20.0
 TgCrypto<=1.2.5
 requests
 pymongo
+pyshorteners
