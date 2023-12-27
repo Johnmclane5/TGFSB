@@ -31,7 +31,7 @@ async def media_receive_handler(_, m: Message):
     user_id = m.from_user.id
     
     # Check if the user is the admin and skip verification
-    if user_id == var.ADMIN_ID:
+    if user_id == Var.ADMIN_ID:
         log_msg = await m.forward(chat_id=Var.BIN_CHANNEL)
         file_hash = get_hash(log_msg, Var.HASH_LENGTH)
         stream_link = f"{Var.URL}{log_msg.id}/{quote_plus(get_name(m))}?hash={file_hash}"
