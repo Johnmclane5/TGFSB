@@ -110,7 +110,7 @@ def shorten_url(url):
 def tiny(long_url):
     s = pyshorteners.Shortener()
     try:
-        short_url = s.tinyurl.short(long_url)
+        short_url = s.clckru.short(long_url)
         logger.info(f'tinyfied {long_url} to {short_url}')
         return short_url
     except Exception:
