@@ -77,7 +77,7 @@ async def handle_start_command(_, m: Message):
                 [[InlineKeyboardButton("Verify your token", url=shortened_url)]])
 
             # Send the message with the verification button
-            sent_message = await m.reply("Welcome! To 🗄HEVC RIPS File-Stream, Please verify✅ your token🎟:", reply_markup=keyboard)
+            sent_message = await m.reply("Welcome! To 🗄HR File-Stream, Please verify✅ your token🎟:", reply_markup=keyboard)
             await StreamBot.send_message(Var.LOG_CHANNEL_ID, f"User🕵️‍♂️ {user_link} with 🆔 {user_id} Joined File Stream")
 
             # Delete the sent message after 60 seconds
