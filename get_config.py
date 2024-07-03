@@ -15,5 +15,5 @@ try:
     except Exception as e:
         print(f"CONFIG_FILE_URL: {e}")
 except Exception as e:
-    print(f'{e})
+    print(f'{e}')
     pass
