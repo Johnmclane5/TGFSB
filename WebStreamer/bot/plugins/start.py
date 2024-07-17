@@ -90,7 +90,7 @@ async def handle_start_command(_, m: Message):
 
 def shorten_url(url):
     try:
-        api_url = f"https://modijiurl.com/api"
+        api_url = f"https://urlshortx.com/api"
         params = {
             "api": Var.URL_SHORTENER_API_KEY,
             "url": url,
