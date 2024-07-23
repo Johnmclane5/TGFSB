@@ -1,6 +1,6 @@
 aiohttp<=3.8.1
 pyrofork==2.2.10
-python-dotenv<=0.20.0
+python-dotenv
 TgCrypto<=1.2.5
 requests
 pymongo
